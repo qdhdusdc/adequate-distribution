@@ -6,7 +6,7 @@ a,b=5,10   #X~U(a,b)
 #n=50000      #随机数个数
 m=200       #随机抽取样本
 aM,bM,aL,bL,EA,EB,std_a,std_b=[],[],[],[],[],[],[],[]
-for i in range(0,100000):
+for i in range(0,1000000):
     sample=a+(b-a)*np.random.random(m)
     
     # X=X.tolist()
